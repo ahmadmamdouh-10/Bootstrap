@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  background-color: rgb(226, 236, 240);
+}
+
+/* p{
+    padding: 30px;
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 18px;
+} */
+
+ul > li {
+  list-style: none;
+}
+
+@media only screen and (max-width: 576px) {
+  .col-lg-2 {
+    display: none;
+  }
+}
+
+/* Nav Bar Start */
+
+nav {
+  margin-bottom: 0px;
+}
+
+#navContainer {
+  background-color: cornflowerblue;
+}
+
+#btnNav {
+  background-color: rgb(60, 117, 223);
+}
+
+#navPic {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#navLogo {
+  color: white;
+  font-size: 25px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+#notifyPlus {
+  font-size: 13px;
+}
+
+/* Nav Bar End */
+
+.col-lg-3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Profile Picture Section Start */
+
+#profpic {
+  /* background-color: rgb(226, 236, 240); */
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#profilePicSection {
+  background-color: whitesmoke;
+  /* box-shadow:rgb(226, 236, 240); */
+  border-left: 20px;
+  width: 350px;
+}
+
+#myProfile {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  background-color: transparent;
+  text-align: center;
+}
+
+#profilePic {
+  width: 100px;
+  height: 120px;
+  margin-left: 100px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+#myDetails {
+  margin-left: 50px;
+}
+
+/* Profile Picture Section End */
+
+/* MyGroups Section Start */
+
+#myGroups {
+  background-color: cornflowerblue;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 60px;
+  width: 350px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* MyGroups Section End */
+
+/* MyInterest Section Start */
+#myInterests {
+  background-color: whitesmoke;
+  height: 180px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 350px;
+  margin-bottom: 15px;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* MyInterest Section End */
+
+/* Alert Section Start */
+
+#alertSec {
+  width: 350px;
+  margin-bottom: 15px;
+}
+strong {
+  color: black;
+}
+
+/* Alert Section End */
+
+/* Middle Section Posts Start */
+
+.posts {
+  background-color: white;
+  margin-bottom: 15px;
+}
+/*Create Post Section Start*/
+
+#postTitle {
+  color: grey;
+  font-size: 20px;
+}
+
+#postID {
+  font-size: 25px;
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+#btnPost {
+  background-color: cornflowerblue;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+
+  font-weight: bold;
+}
+
+#postLogo {
+  color: white;
+  margin-right: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+/*Create Post Section End*/
+
+/* Post One Start */
+#postPicOne {
+  height: 90px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.uName {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.tOne {
+  float: right;
+  color: grey;
+  margin-top: 10px;
+}
+
+#imgOneBody,
+#imgTwoBody {
+  height: 250px;
+  width: 350px;
+  margin: 10px;
+}
+
+.btnPost {
+  background-color: cornflowerblue;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+
+  font-weight: bold;
+}
+
+.btns {
+  margin-left: 10px;
+}
+
+.postBody {
+  background-color: white;
+}
+
+.posts {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+
+#OnePostPic {
+  height: 250px;
+  width: 700px;
+  margin: 10px;
+}
+
+/* Post One End */
+
+/* Middle Section Posts End */
+
+/*Right Side Start */
+
+#cardRight {
+  text-align: center;
+  width: initial;
+}
+
+#imgRightFCard {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+
+/*Right Side End */
+
+/* Footer Start */
+#footer {
+  background-color: cornflowerblue;
+  height: 60px;
+  color: white;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+#powered{
+    background-color: rgb(30, 90, 202);
+    padding-top: 10px;
+}
+/* Footer End */
